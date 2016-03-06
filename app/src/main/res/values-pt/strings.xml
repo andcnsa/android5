@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">5 Motivos Para Aprender Jiu-Jitsu</string>
+    <string name="health">Saúde</string>
+    <string name="opponent">Adversário</string>
+    <string name="evolution">Evolução</string>
+    <string name="master">Mestre</string>
+    <string name="trainig_partners">Amizade</string>
+    <string name="evolution_description">Você sempre pode aprender algo novo</string>
+    <string name="health_description">Melhore sua vida</string>
+    <string name="master_description">Seu mestre é seu amigo</string>
+    <string name="opponent_description">Respeite os outros e a si mesmo</string>
+    <string name="trainig_partners_description">Nós somos uma grande família</string>
+</resources>

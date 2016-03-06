@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">5 Reasons To Learn Brazilian Jiu-Jitsu</string>
+    <string name="health">Health</string>
+    <string name="health_description">Improve your life</string>
+    <string name="opponent">Opponent</string>
+    <string name="opponent_description">Respect others and yourself</string>
+    <string name="evolution">Evolution</string>
+    <string name="evolution_description">You can always learn something new</string>
+    <string name="master">Master</string>
+    <string name="master_description">Your master is your dude</string>
+    <string name="trainig_partners">Training Partners</string>
+    <string name="trainig_partners_description">We are a big family</string>
+</resources>

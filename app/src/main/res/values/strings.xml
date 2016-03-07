@@ -1,13 +1,19 @@
 <resources>
     <string name="app_name">5 Reasons To Learn Brazilian Jiu-Jitsu</string>
+    <string name="under_construction_info">Under construction</string>
     <string name="health">Health</string>
     <string name="health_description">Improve your life</string>
+    <string name="health_text">By keeping a routine of daily training you will have significant gains in muscle mass, and improve your reflexes and relieve the stresses of your day-to-day.</string>
     <string name="opponent">Opponent</string>
     <string name="opponent_description">Respect others and yourself</string>
+    <string name="opponent_text">Your biggest opponent is yourself and your best ally will be your master. The fight, on Brazilian Jiu-jitsu, is like a chess match, then be the stronger or heavier is not always as relevant. The difference between the winner and the loser will be yourself.</string>
     <string name="evolution">Evolution</string>
     <string name="evolution_description">You can always learn something new</string>
+    <string name="evolution_text">Every new workout you realize that is evolving and getting better understand how the struggle and his own body. With time spend less energy and more technical, turning a fight in a real strategy game where who distract former can lose.</string>
+    <string name="training_partners">Training Partners</string>
+    <string name="training_partners_description">We are a big family</string>
+    <string name="training_partners_text">This martial art allows you to make new friendships that can be eternal. All work for the sake of your progress and you will work with a view to their evolution, regardless of range.</string>
     <string name="master">Master</string>
     <string name="master_description">Your master is your dude</string>
-    <string name="trainig_partners">Training Partners</string>
-    <string name="trainig_partners_description">We are a big family</string>
+    <string name="master_text">Unlike some martial arts, master of Brazilian Jiu Jitsu is more friend than a true master.</string>
 </resources>

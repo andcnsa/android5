@@ -4,10 +4,16 @@
     <string name="opponent">Adversário</string>
     <string name="evolution">Evolução</string>
     <string name="master">Mestre</string>
-    <string name="trainig_partners">Amizade</string>
+    <string name="training_partners">Amizade</string>
     <string name="evolution_description">Você sempre pode aprender algo novo</string>
     <string name="health_description">Melhore sua vida</string>
     <string name="master_description">Seu mestre é seu amigo</string>
     <string name="opponent_description">Respeite os outros e a si mesmo</string>
-    <string name="trainig_partners_description">Nós somos uma grande família</string>
+    <string name="training_partners_description">Nós somos uma grande família</string>
+    <string name="health_text">Ao manter uma rotina de treinos diários você terá ganhos importantes de massa muscular, além de melhorar seus reflexos e aliviar as tensões do seu dia-a-dia.</string>
+    <string name="under_construction_info">Em construção</string>
+    <string name="evolution_text">A cada novo treino você perceberá que está evoluindo e conseguindo entender melhor como funciona a luta e o seu próprio corpo. Com o tempo gastará menos energia e mais técnica, transformando uma luta em um verdadeiro jogo de estratégia onde quem se distrair primeiro pode perder.</string>
+    <string name="master_text">Ao contrário de algumas artes marciais, o mestre no Jiu-jitsu é muito mais amigo do que propriamente um mestre.</string>
+    <string name="opponent_text">O seu maior adversário será você mesmo e seu maior aliado será o seu mestre. A luta, no Jiu-jitsu, é semelhante a uma partida de xadrez, então ser o mais forte ou mais pesado nem sempre é tão relevante. A diferença entre o vencedor e o perdedor estará em si mesmo.</string>
+    <string name="training_partners_text">Essa arte marcial permite que você faça novas amizades que podem ser eternas. Todos trabalharão em prol da sua evolução e você trabalhará visando a evolução deles, independente da faixa.</string>
 </resources>

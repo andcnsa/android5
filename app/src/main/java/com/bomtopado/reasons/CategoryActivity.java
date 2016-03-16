@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.bomtopado.reasons.model.Categoria;
 
+/**
+ * Activity das categorias
+ */
 public class CategoryActivity extends AppCompatActivity {
 
     @Override
@@ -19,6 +22,9 @@ public class CategoryActivity extends AppCompatActivity {
         verificaExtra();
     }
 
+    /**
+     * Verifica se o activity tem extra do tipo categoria e preenche com o objeto serializado
+     */
     private void verificaExtra() {
         TextView titulo_text_view = (TextView)findViewById(R.id.category_title_text_view);
         TextView texto_text_view = (TextView)findViewById(R.id.category_text_text_view);
@@ -36,7 +42,6 @@ public class CategoryActivity extends AppCompatActivity {
     }
 
     public void closeActivity(View view) {
-        Log.v("Anderson","Fechando o activity");
         super.onBackPressed();
     }
 }

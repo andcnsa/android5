@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Trata-se do activity inicial
  * Created by Anderson on 06/03/2016.
  */
 public class HomeActivity extends AppCompatActivity {
@@ -36,11 +37,46 @@ public class HomeActivity extends AppCompatActivity {
         //String[] categories = new String[]{getString(R.string.health), getString(R.string.opponent), getString(R.string.evolution), getString(R.string.master), getString(R.string.trainig_partners)};
         List<Categoria> categories = new ArrayList<Categoria>();
 
-        categories.add(new Categoria(this, R.string.health, R.string.health_description, R.string.health_text, R.drawable.ic_health, R.drawable.photo_health));
-        categories.add(new Categoria(this, R.string.opponent, R.string.opponent_description, R.string.opponent_text, R.drawable.ic_opponent, R.drawable.photo_opponent));
-        categories.add(new Categoria(this, R.string.evolution, R.string.evolution_description, R.string.evolution_text, R.drawable.ic_evolution, R.drawable.photo_evolution));
-        categories.add(new Categoria(this, R.string.training_partners, R.string.training_partners_description, R.string.opponent_text, R.drawable.ic_training_partner, R.drawable.photo_training_partner));
-        categories.add(new Categoria(this, R.string.master, R.string.master_description, R.string.master_text, R.drawable.ic_master, R.drawable.background));
+        Categoria categoria_health = new Categoria()
+                .setTitulo(getString(R.string.health))
+                .setDescricao(getString(R.string.health_description))
+                .setTexto(getString(R.string.health_text))
+                .setImagem(R.drawable.ic_health)
+                .setFoto(R.drawable.photo_health);
+        categories.add(categoria_health);
+
+        Categoria categoria_opponent = new Categoria()
+                .setTitulo(getString(R.string.opponent))
+                .setDescricao(getString(R.string.opponent_description))
+                .setTexto(getString(R.string.opponent_text))
+                .setImagem(R.drawable.ic_opponent)
+                .setFoto(R.drawable.photo_opponent);
+        categories.add(categoria_opponent);
+
+        Categoria categoria_evolution = new Categoria()
+                .setTitulo(getString(R.string.evolution))
+                .setDescricao(getString(R.string.evolution_description))
+                .setTexto(getString(R.string.evolution_text))
+                .setImagem(R.drawable.ic_evolution)
+                .setFoto(R.drawable.photo_evolution);
+        categories.add(categoria_evolution);
+
+        Categoria categoria_training_partners = new Categoria()
+                .setTitulo(getString(R.string.training_partners))
+                .setDescricao(getString(R.string.training_partners_description))
+                .setTexto(getString(R.string.training_partners_text))
+                .setImagem(R.drawable.ic_training_partner)
+                .setFoto(R.drawable.photo_training_partner);
+        categories.add(categoria_training_partners);
+
+        Categoria categoria_master = new Categoria()
+                .setTitulo(getString(R.string.master))
+                .setDescricao(getString(R.string.master_description))
+                .setTexto(getString(R.string.master_text))
+                .setImagem(R.drawable.ic_master)
+                .setFoto(R.drawable.background);
+        categories.add(categoria_training_partners);
+
 
         //Definindo layout
         int layout = R.layout.categories;
